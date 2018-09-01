@@ -93,7 +93,10 @@ public class DefinitionLoaderXml implements DefinitionLoader {
 			return null;
 		}
 		
-		return new DiskImage( def );
+		final DiskImage image = new DiskImage(def);
+		image.saveToFile( def.getOutputFilename() );
+		
+		return image;
 	}
 
 	private void convertFile(File config, DiskDefinition def, Node fileNode) throws XmlDataException {
