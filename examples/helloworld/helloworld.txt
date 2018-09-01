@@ -1,0 +1,7 @@
+@image=out/helloworld.ssd
+@label=HelloWorld
+@!boot=3
+!BOOT=files/!boot.txt
+X.HELLO=files/hello
+ load=2000
+ exec=2000

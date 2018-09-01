@@ -1,0 +1,6 @@
+@image=poems_txt.ssd
+@label=MyPoemDisk
+@!boot=0
+Poem3=Poem3
+Poem2=Poem2
+Poem1=Poem1

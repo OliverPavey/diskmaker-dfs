@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root>
+<disk>
+	<image>poems_xml.ssd</image>
+	<label>MyPoemDisk</label>
+	<boot-opt>0</boot-opt>
+	<files>
+		<file>
+			<name>Poem3</name>
+			<source>Poem3</source>
+			<loadAddress>0</loadAddress>
+			<execAddress>0</execAddress>
+		</file>
+		<file>
+			<name>Poem2</name>
+			<source>Poem2</source>
+			<loadAddress>0</loadAddress>
+			<execAddress>0</execAddress>
+		</file>
+		<file>
+			<name>Poem1</name>
+			<source>Poem1</source>
+			<loadAddress>0</loadAddress>
+			<execAddress>0</execAddress>
+		</file>
+	</files>
+</disk>
