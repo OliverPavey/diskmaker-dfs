@@ -23,7 +23,7 @@ public class DiskMaker {
 				loader = new DefinitionLoaderTxt();
 			}
 			
-			loader.convert( args[1] );
+			loader.convert( args[0] );
 		}
 	}
 }
